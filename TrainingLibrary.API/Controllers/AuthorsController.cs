@@ -1,13 +1,10 @@
 ﻿using AutoMapper;
-using TrainingLibrary.API.Helpers;
-using TrainingLibrary.API.Models;
-using TrainingLibrary.API.ResourceParameters;
-using TrainingLibrary.API.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using TrainingLibrary.API.Models;
+using TrainingLibrary.API.ResourceParameters;
+using TrainingLibrary.API.Services;
 
 namespace TrainingLibrary.API.Controllers
 {
