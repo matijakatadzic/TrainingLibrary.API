@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace CourseLibrary.API.Entities
+namespace TrainingLibrary.API.Entities
 {
     public class Author
     {
@@ -24,6 +24,7 @@ namespace CourseLibrary.API.Entities
         [MaxLength(50)]
         public string MainCategory { get; set; }
 
-        public ICollection<Course> Courses { get; set; } = new List<Course>();
+        public ICollection<Course> Courses { get; set; }
+            = new List<Course>();
     }
 }

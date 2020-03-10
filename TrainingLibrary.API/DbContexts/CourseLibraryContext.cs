@@ -1,8 +1,8 @@
-﻿using CourseLibrary.API.Entities;
+﻿using TrainingLibrary.API.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace CourseLibrary.API.DbContexts
+namespace TrainingLibrary.API.DbContexts
 {
     public class CourseLibraryContext : DbContext
     {
@@ -21,9 +21,9 @@ namespace CourseLibrary.API.DbContexts
                 new Author()
                 {
                     Id = Guid.Parse("d28888e9-2ba9-473a-a40f-e38cb54f9b35"),
-                    FirstName = "Matija",
-                    LastName = "Katadzic",
-                    DateOfBirth = new DateTime(1991, 3, 6),
+                    FirstName = "Berry",
+                    LastName = "Griffin Beak Eldritch",
+                    DateOfBirth = new DateTime(1650, 7, 23),
                     MainCategory = "Ships"
                 },
                 new Author()
